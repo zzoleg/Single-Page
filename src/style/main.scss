@@ -1,0 +1,23 @@
+@import'../../node_modules/reset-css/sass/reset';
+@import 'font-awesome.css';
+@import'~bootstrap/scss/bootstrap.scss';
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../../fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font {
+    font-family: 'Lato';
+    font-weight: normal;
+    font-style: normal;
+} 
+
+.subscribe-input {
+    @extend .font;
+    font-size: 15px;
+    color: #999999;
+}
